@@ -1,0 +1,30 @@
+{
+  "name": "laurieart-angular",
+  "version": "0.0.1",
+  "description": "Laurie Art - Angular",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJR113/laurieart-angular.git"
+  },
+  "author": "Matthew Rouillard <Matthew.Rouillard@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJR113/laurieart-angular/issues"
+  },
+  "homepage": "https://github.com/MJR113/laurieart-angular#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^4.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^1.5.4",
+    "jshint": "^2.9.2",
+    "run-sequence": "^1.2.2"
+  }
+}
