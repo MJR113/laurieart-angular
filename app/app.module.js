@@ -1,11 +1,14 @@
 (function(){
     'use strict';
 
-    angular
-        .module('app', [
-            'app.core',
+    var app = angular.module('app', [
+        'app.core',
 
-            /// Feature Areas
-            'app.layout'
-        ]);
+        /// Feature Areas
+        'app.layout'
+    ]);
+
+    app.run(['$route', function($route) {
+
+    }]);
 })();
