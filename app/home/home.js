@@ -5,15 +5,17 @@
         .module('app')
         .controller('HomeController', HomeController);
 
-    HomeController.$inject = [];
-    function HomeController() {
+    HomeController.$inject = ['Category'];
+    function HomeController(Category) {
         var vm = this;
-        
+        vm.categories = [];
 
         activate();
 
         ////////////////
 
-        function activate() { }
+        function activate() {
+            vm.categories = Category.query();
+        }
     }
 })();
