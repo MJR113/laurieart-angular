@@ -14,6 +14,11 @@
                     controller: 'HomeController',
                     controllerAs: 'vm'
                 })
+                .when('/categories', {
+                    templateUrl: '/category/categories.html',
+                    controller: 'CategoriesController',
+                    controllerAs: 'vm'
+                })
                 .otherwise({
                     redirectTo: '/'
                 });
