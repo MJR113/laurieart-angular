@@ -3,7 +3,7 @@
 
     angular.module('app.core', [
         /// Angular Modules
-        'ngAnimate', 'ngRoute'
+        'ngAnimate', 'ngResource', 'ngRoute'
 
         /// Cross-App Modules
 
