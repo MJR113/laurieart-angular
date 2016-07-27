@@ -4,5 +4,9 @@
             <h1>Laurie Art</h1>
         </div>
         <p class="lead">Homepage.</p>
+
+        <div ng-repeat="category in vm.categories">
+            <h1>{{ category.name }}</h1>
+        </div>
     </div>
 </section>
