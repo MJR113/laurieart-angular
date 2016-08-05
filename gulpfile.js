@@ -44,7 +44,7 @@ gulp.task('copy-html-files', function () {
 });
 gulp.task('connect', function () {
   connect.server({
-    root: 'app/',
+    root: ['app/', 'content/'],
     port: 8888
   });
 });

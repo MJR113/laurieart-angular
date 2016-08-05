@@ -1,18 +1,22 @@
 [
     {
         "name": "Oils",
-        "url": ""
+        "url": "",
+        "coverPicture": "images/oils-thumbnail.jpg"
     },
     {
         "name": "Watercolors",
-        "url": ""
+        "url": "",
+        "coverPicture": "images/watercolors-thumbnail.jpg"
     },
     {
         "name": "Replicas",
-        "url": ""
+        "url": "",
+        "coverPicture": "images/replicas-thumbnail.jpg"
     },
     {
         "name": "Sketches",
-        "url": ""
+        "url": "",
+        "coverPicture": "images/sketches-thumbnail.jpg"
     }
 ]
